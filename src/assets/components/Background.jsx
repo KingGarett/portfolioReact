@@ -35,7 +35,7 @@ const Background = () => {
             <span style={{'--i':'22'}} className="relative z-10 sm:w-[3vw] w-[1vw] sm:h-[3vh] md:h-[4vh] h-[1vh] mx-1 rounded-full stars-move sphere-shadow bg-sky-100"></span>
             <span style={{'--i':'17'}} className="relative z-10 sm:w-[3vw] w-[1vw] sm:h-[3vh] md:h-[4vh] h-[1vh] mx-1 rounded-full stars-move sphere-shadow bg-sky-100"></span>
             <span style={{'--i':'28'}} className="relative z-10 sm:w-[3vw] w-[1vw] sm:h-[3vh] md:h-[4vh] h-[1vh] mx-1 rounded-full stars-move sphere-shadow bg-sky-100"></span>
-            <img className='absolute z-0' src={img}/>
+            {/* <img className='absolute z-0' src={img}/> */}
         </div>
     </div>
   )
