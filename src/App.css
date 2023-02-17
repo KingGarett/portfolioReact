@@ -1,0 +1,28 @@
+.sphere-shadow{
+    box-shadow: 0 0 1vw 1vw #7dd4e784, 
+    0 0 5vw #7dd4e7,
+    0 0 10vw #7dd4e7; 
+}
+
+.sphere-shadow:nth-child(even){
+    box-shadow: 0 0 1vw 1vw #fff3, 
+    0 0 5vw #fff,
+    0 0 10vw #fff;
+    background-color: #fff;
+
+}
+
+.stars-move{
+    animation: stars-move 15s linear infinite;
+    animation-duration: calc(320s / var(--i));
+    animation-delay: -8s;
+}
+
+@keyframes stars-move{
+    0%{
+        transform: translateY(100vh) scale(-.5)
+    }
+    100%{
+        transform: translateY(-10vh) scale(.6)
+    }
+}
