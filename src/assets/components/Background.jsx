@@ -1,9 +1,10 @@
 import athom from '../image/athom.png'
 import design from '../image/design-is-mine-3.png'
+import Skills from './Skills'
 
 const Background = () => {
   return (
-    <div className="z-10 w-full h-screen overflow-hidden ">
+    <div className="z-10 w-full overflow-hidden ">
         <div className="flex ">
             <span style={{'--i':'11'}} className=" z-10 sm:w-[3vw] w-[1vw] sm:h-[3vh] md:h-[4vh] h-[1vh] mx-1 rounded-full stars-move sphere-shadow bg-sky-100"></span>
             <span style={{'--i':'12'}} className=" z-10 sm:w-[3vw] w-[1vw] sm:h-[3vh] md:h-[4vh] h-[1vh] mx-1 rounded-full stars-move sphere-shadow bg-sky-100"></span>
@@ -42,6 +43,9 @@ const Background = () => {
               <img className='absolute left-[10%] top-10 z-20 w-1/3 lg:w-2/5 rotate-athom' src={athom}/>
             </div>
         </div>
+        {/* Esta imagen permite separa el oanel 'SKILLS' */}
+        <div className=''><img className='invisible' src={design}/></div>
+        <Skills/>
     </div>
   )
 }
