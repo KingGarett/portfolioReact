@@ -50,11 +50,11 @@ const Skills = () => {
           </div>
           <div className='flex flex-col w-[3rem] text-center gap-1 items-center '>
             <img className='h-[3rem]' src={photoshop}/>
-            <p className='text-gray-100'>Photoshop</p>
+            <p className='text-gray-100'>Ad.PS</p>
           </div>
           <div className='flex flex-col w-[3rem] text-center gap-1 items-center '>
             <img className='h-[3rem]' src={illustrator}/>
-            <p className='text-gray-100'>Illustrator</p>
+            <p className='text-gray-100'>Ad.Ill</p>
           </div>
         </div>
     </div>

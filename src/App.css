@@ -44,8 +44,25 @@
     100%{transform: rotate(360deg);}
 }
 
-/*--------------------- Header ----------------------*/
+/*--------------------- Presentation ----------------------*/
 
 .text-shadow{
     text-shadow: 0px 1px rgb(241, 241, 238) ;
+}
+
+/*--------------------- Clients ----------------------*/
+
+.attraction{
+    position:absolute;
+    transform: rotate(calc(360deg/6*var(--i)));
+    transform-origin: 40vw;
+    left:0;
+}
+
+.negative-rotation{
+    transform: rotate(calc(360deg/-6* var(--i)));
+}
+
+.transform-origin{
+    transform: translate(-50%,-50%);
 }
