@@ -7,7 +7,7 @@ import ProjectsCarrousel from './assets/components/ProjectCarrousel/ProjectsCarr
 function App() {
 
   return (
-    <div className="min-h-screen overflow-hidden bg-slate-900">
+    <div className="min-h-screen overflow-x-hidden preserve bg-slate-900">
       <Presentation/>
       <Background/>
       <Clients/>
