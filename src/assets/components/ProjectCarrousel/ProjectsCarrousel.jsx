@@ -3,6 +3,7 @@ import encriptador from '../../image/projects/encriptador.png'
 import oasis1 from '../../image/projects/oasisfrutal1.png' 
 import portfolio1 from '../../image/projects/portfolio1.png' 
 import muebleriaexpress from '../../image/projects/muebleriaexpress.png' 
+import planet from '../../image/icons/planet.png' 
 
 const ProjectsCarrousel = () => {
 
@@ -11,8 +12,8 @@ const ProjectsCarrousel = () => {
     let radius = 190
     let autoRotate = true
     let rotateSpeed = -60
-    let imgWidth = 20
-    let imgHeight = 40
+    let imgWidth = 15
+    let imgHeight = 30
   
     let odrag = document.getElementById('drag')
     let ospin = document.getElementById('spin')
@@ -106,8 +107,8 @@ const ProjectsCarrousel = () => {
 
 
   return (
-    <div className='w-screen h-screen mx-auto'>
-      <div className=' h-[25vh]'><p className='w-3/5 pb-2 mx-auto text-3xl font-thin text-center text-gray-100 border-b border-gray-400 lg:text-4xl'>Others Projects</p></div>
+    <div className='w-screen h-screen mx-auto'>   
+      <div className=' h-[28vh]'><p className='w-3/5 pb-2 mx-auto text-3xl font-thin text-center text-gray-100 border-b border-gray-400 lg:text-4xl'>Others Projects</p></div>
       <div id="drag" >
         <div id="spin" >
           <img src={encriptador}></img>
