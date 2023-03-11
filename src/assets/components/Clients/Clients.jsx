@@ -31,7 +31,7 @@ const Clients = () => {
     setTimeout(()=>{  
       animatedOrbitingElements(orbitingElements[0],0)
       animatedOrbitingElements(orbitingElements[1],1000)
-    },1200)
+    },2000)
   
     return () => {
       orbitingList.forEach(e => clearInterval(e))
@@ -46,13 +46,13 @@ const Clients = () => {
     <div className='w-4/5 mx-auto'>
         <p className='w-4/5 pb-2 mx-auto text-3xl font-thin text-center text-gray-100 border-b border-gray-400 lg:text-4xl'>My Clients</p>
         <div className='relative w-full h-[30rem] '>
-            <div className='absolute w-24 h-24 bg-white rounded-full top-[50%] left-[50%] transform-origin items-center flex justify-center font-bold '><p className='px-1.5 py-8 text-gray-100 bg-black border border-black rounded-full'>Black Hole</p></div>
+            <BlackHole/>
             <div className='relative flex items-center justify-center h-full'>
-              <img id='cliente1' className='h-[20vh] absolute orbitElement ' src={polleriaNicvardi}/>
-              <img id='cliente2' className='h-[18vh] absolute  orbitElement ' src={oasisFrutal}/>
+              <img  className='h-[18vh] absolute orbitElement' src={polleriaNicvardi}/>
+              <img className='h-[18vh] absolute orbitElement' src={oasisFrutal}/>
             </div>
         </div>
-        <BlackHole/>
+
     </div>
   )
 }

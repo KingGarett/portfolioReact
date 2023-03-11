@@ -9,7 +9,7 @@ const ProjectsCarrousel = () => {
 
   setTimeout(()=>{
     
-    let radius = 190
+    let radius = 150
     let autoRotate = true
     let rotateSpeed = -60
     let imgWidth = 15
@@ -108,13 +108,13 @@ const ProjectsCarrousel = () => {
 
   return (
     <div className='w-screen h-screen mx-auto'>   
-      <div className=' h-[28vh]'><p className='w-3/5 pb-2 mx-auto text-3xl font-thin text-center text-gray-100 border-b border-gray-400 lg:text-4xl'>Others Projects</p></div>
+      <div className=' h-[28vh]'><p className='w-4/5 pb-2 mx-auto text-3xl font-thin text-center text-gray-100 border-b border-gray-400 lg:text-4xl'>Practice Projects</p></div>
       <div id="drag" >
         <div id="spin" >
-          <img src={encriptador}></img>
-          <img src={oasis1}></img>
-          <img src={portfolio1}></img>
-          <img src={muebleriaexpress}></img>
+          <img className='object-cover' src={encriptador}></img>
+          <img className='object-cover' src={oasis1}></img>
+          <img className='object-cover' src={portfolio1}></img>
+          <img className='object-cover' src={muebleriaexpress}></img>
         </div>
       </div>
       <div id="ground"></div>

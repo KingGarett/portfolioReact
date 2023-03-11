@@ -1,0 +1,17 @@
+.megna{
+    filter:blur(5px);
+    background: linear-gradient(#ff4500,#ff4500,#ff9900);
+    box-shadow: 0 0 60px 30px #fcbd3e,0 0 100px 60px #fd7a4d,0 0 140px 90px #ff0b6d;
+}
+
+.blackhole{
+    border-radius: 45% 50% 50% 50%;
+    transform: rotate(0deg);
+    animation:hole .1s linear infinite normal;
+}
+
+@keyframes hole{
+    100%{
+        transform: rotate(360deg);
+    }
+}
